@@ -1,2 +1,39 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+
+:root {
+	--ion-color-yellreng: #f5cf0f;
+	--ion-color-yellreng-rgb: 245,207,15;
+	--ion-color-yellreng-contrast: #000000;
+	--ion-color-yellreng-contrast-rgb: 0,0,0;
+	--ion-color-yellreng-shade: #d8b60d;
+	--ion-color-yellreng-tint: #f6d427;
+}
+
+.ion-color-yellreng {
+	--ion-color-base: var(--ion-color-yellreng);
+	--ion-color-base-rgb: var(--ion-color-yellreng-rgb);
+	--ion-color-contrast: var(--ion-color-yellreng-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-yellreng-contrast-rgb);
+	--ion-color-shade: var(--ion-color-yellreng-shade);
+	--ion-color-tint: var(--ion-color-yellreng-tint);
+}
+
+:root {
+	--ion-color-bluegreen: #25d4c0;
+	--ion-color-bluegreen-rgb: 37,212,192;
+	--ion-color-bluegreen-contrast: #000000;
+	--ion-color-bluegreen-contrast-rgb: 0,0,0;
+	--ion-color-bluegreen-shade: #21bba9;
+	--ion-color-bluegreen-tint: #3bd8c6;
+}
+
+.ion-color-bluegreen {
+	--ion-color-base: var(--ion-color-bluegreen);
+	--ion-color-base-rgb: var(--ion-color-bluegreen-rgb);
+	--ion-color-contrast: var(--ion-color-bluegreen-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-bluegreen-contrast-rgb);
+	--ion-color-shade: var(--ion-color-bluegreen-shade);
+	--ion-color-tint: var(--ion-color-bluegreen-tint);
+}
